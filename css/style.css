@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  /* background-color: blue; */
+  font-family: 'Heebo', sans-serif;
+  font-size: 8px;
+  color: #FD0D69;
+}
+
+#asideLeft {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 25%;
+  padding: 24px;
+  /* background-color: pink; */
+  font-size: 2em;
+}
+
+.textLeft {
+  position: fixed;
+}
+
+.shapePink {
+  width: 24px;
+  height: 12px;
+  background-color: #FCD2C2;
+  margin-top: 75px;
+  position: fixed;
+}
+
+.shapeRed {
+  width: 24px;
+  height: 12px;
+  background-color: #FD0D69;
+  margin-top: 87px;
+  position: fixed;
+}
+
+#asideRight {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  padding: 24px;
+  /* background-color: red; */
+  font-size: 2em;
+}
+
+.title {
+  margin-bottom: 24px;
+}
+
+.blogText {
+  font-size: 2.5em;
+}
+
+.linkText {
+  font-size: 0.5em;
+}
+
+a:link, a:visited {
+  color: #FD0D69;
+}
+
+a:hover {
+  color: #FCD2C2;
+}
+
+.lineSeparator {
+  margin: 24px 0;
+  border-bottom: 2px solid #FCD2C2;
+  /* width: 100%; */
+}
